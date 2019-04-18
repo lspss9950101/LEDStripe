@@ -15,4 +15,4 @@ Android device \<\-\> HC-06 (using bluetooth protocol)
 |WS2812B	|60	|
 |Android device	|1	|
 ## Schematic ##
-
+![Alt text](/res/schematic.png)
