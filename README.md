@@ -31,5 +31,17 @@ The last byte indicates the delay time in milliseconds.
 
 Mode : refer to section mode  
 Color : express as RGB with three bytes  
-config : optional data for some modes  
-delay : in millisecond  
+Config : optional data for some modes  
+Delay : in millisecond  
+### Mode ###
+Mode is a byte used to indicate how the WS2812B animates.  
+
+|Value	|Mode		|Config		|
+|:------|:--------------|:--------------|
+|0x00	|Blank		|NULL		|
+|0x01	|Rainbow	|Period		|
+|0x02	|Gradient	|Period		|
+|0x03	|Breathing	|Period		|
+|0x04	|Solid		|NULL		|
+|0x05	|SolidGradient	|Period		|
+
