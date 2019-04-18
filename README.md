@@ -29,7 +29,7 @@ The last byte indicates the delay time in milliseconds.
 |:------|:--------------|:--------------|:------|:------|
 |Mode	|Primary color	|Secondary color|config	|delay	|
 
-Mode : refer to section mode
-Color : express as RGB with three bytes
-config : optional data for some modes
+Mode : refer to section mode  
+Color : express as RGB with three bytes  
+config : optional data for some modes  
 delay : in millisecond  
