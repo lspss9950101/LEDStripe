@@ -16,3 +16,14 @@ Android device \<\-\> HC-06 (using bluetooth protocol)
 |Android device	|1	|
 ## Schematic ##
 ![schematic](/res/schematic.png)
+## Detail ##
+### Bluetooth patern ###
+The bluetooth patern contains 9 bytes.  
+The first byte indicates the displaying mode.  
+The following three bytes indicate primary color.  
+Other following three bytes indicate secondary color.  
+The next byte indicates excessive config data.  
+The last byte indicates the delay time in milliseconds.  
+|XX	|XX XX XX	|XX XX XX	|XX	|XX	|
+|:------|:--------------|:--------------|:------|:------|
+|Mode	|Primary color	|Secondary color|config	|delay	|
