@@ -24,6 +24,7 @@ The following three bytes indicate primary color.
 Other following three bytes indicate secondary color.  
 The next byte indicates excessive config data.  
 The last byte indicates the delay time in milliseconds.  
+
 |XX	|XX XX XX	|XX XX XX	|XX	|XX	|
 |:------|:--------------|:--------------|:------|:------|
 |Mode	|Primary color	|Secondary color|config	|delay	|
