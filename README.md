@@ -1,6 +1,6 @@
 # LED Stripe #
 ## Introduction ##
-It's a easy application of WS2812B LED stripe, which consists of attiny85 micro controllor communicating with a atmega328p chip by I2C protocol and controlled by an android application using bluetooth serial port.
+It's a easy application of WS2812B LED stripe, which consists of attiny85 micro controllor communicating with a atmega328p chip by I2C protocol and controlled by an android application using bluetooth serial port. Also, to prevent resetting everytime rebooting the computer, the setting will be saved in the EEPROM of Atmega328p and loaded when rebooting.
 ## Infrastucture ##
 Attiny85  \<\-\> WS2812B (using FastLED library)  
 Atmega328p \<\-\> Attiny (using I2C, Atmega328p as master)  
@@ -45,3 +45,13 @@ Mode is a byte used to indicate how the WS2812B animates.
 |0x04	|Solid		|NULL		|
 |0x05	|SolidGradient	|Period		|
 
+### Instance ###
+#### Circuit ####
+![Circuit](/res/circuit_1.jpg)
+![Circuit](/res/circuit_2.jpg)
+#### Gradient ####
+[![Gradient Example](http://img.youtube.com/vi/ES8kneXbvdg/0.jpg)](http://www.youtube.com/watch?v=ES8kneXbvdg "Gradient Example")
+#### Rainbow ####
+[![Rainbow Example](http://img.youtube.com/vi/ES8kneXbvdg/0.jpg)](https://youtu.be/ryr7hZnHJKw "Rainbow Example")
+#### Breathing ####
+[![Breathing Example](http://img.youtube.com/vi/rJafmvNVk_8/0.jpg)](http://www.youtube.com/watch?v=rJafmvNVk_8 "Breathing Example")
